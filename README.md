@@ -17,11 +17,36 @@
 
 ## 免费版包含
 
-- [x] `CHECKLIST.md` — 8 个环节的完整自检清单（40+ 检查项）
-- [x] `examples/before-after.md` — 一条 Listing 的脱敏改写案例
-- [x] `templates/fact-sheet.md` — 产品事实核对表
-- [x] `templates/title-workspace.md` — 标题改写工作底稿
+- [x] `SKILL.md` — 标准 Skill 入口，可被 AI 智能体直接加载
+- [x] `references/checklist.md` — 8 个环节的完整自检清单（40+ 检查项）
+- [x] `references/before-after-example.md` — 一条 Listing 的脱敏改写案例
+- [x] `assets/fact-sheet-template.md` — 产品事实核对表
+- [x] `assets/title-workspace-template.md` — 标题改写工作底稿
 - [x] 平台差异速查（Amazon vs TikTok Shop）
+
+## 作为 AI Skill 安装
+
+本仓库已是标准 Skill 格式（含 `SKILL.md` + YAML frontmatter）。三种安装方式：
+
+**方式 1 — 下载 zip（推荐）**
+从 Releases 下载 `listing-optimization-checklist.zip`，解压到技能目录：
+
+| 工具 | 目录 |
+|---|---|
+| WorkBuddy / CodeBuddy | `~/.workbuddy/skills/listing-optimization-checklist/` |
+| Claude Code | `~/.claude/skills/listing-optimization-checklist/` |
+
+解压后目录里应直接看到 `SKILL.md`。重启智能体即可在技能列表中看到「Listing 优化清单」。
+
+**方式 2 — Git 克隆**
+```bash
+git clone https://github.com/jackyniu66-cmyk/listing-optimization-checklist.git ~/.workbuddy/skills/listing-optimization-checklist
+```
+
+**方式 3 — 让智能体装**
+把本仓库链接发给智能体，说「帮我安装这个 Skill」。
+
+触发方式：直接说「帮我检查这条 listing」「重写标题和五点」「上架前自检」等，智能体会自动加载。
 
 ## 完整版（付费）
 
@@ -37,11 +62,11 @@
 
 完整版获取方式见下方「变现版本」章节，或联系作者 The Minotaur。
 
-## 使用方法
+## 手动使用方法（不装 Skill 也能用）
 
-1. 复制 `templates/fact-sheet.md`，把产品事实填完
-2. 照 `CHECKLIST.md` 的顺序逐项过
-3. 用 `templates/title-workspace.md` 出 3 个标题候选
+1. 复制 `assets/fact-sheet-template.md`，把产品事实填完
+2. 照 `references/checklist.md` 的顺序逐项过
+3. 用 `assets/title-workspace-template.md` 出 3 个标题候选
 4. 发布前跑一遍第 7 节「终检」
 
 ## 变现版本
