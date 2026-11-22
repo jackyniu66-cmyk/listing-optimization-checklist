@@ -31,8 +31,10 @@
 - [ ] 数字与规格表一致（Peak / RMS 不混用）
 - [ ] 手机端预览：不被截断，核心词在前
 
-❌ 反例：`High Quality Professional Loudspeater 800W Big Sound Party DJ`
-✅ 正例：`[Brand] 15" Portable PA Speaker, 800W Peak / 400W RMS, Bluetooth, 2 Wireless Mics, For Outdoor Events & Church`
+❌ 反例：`High Quality Professional Loudspeater Big Sound Party DJ System`
+✅ 正例：`[Brand] [尺寸] Portable PA Speaker, Peak [X]W / RMS [Y]W, [连接方式], For [场景A] & [场景B]`
+
+（方括号为占位符，填入自己产品的真实数据）
 
 ---
 
@@ -47,8 +49,8 @@
 - [ ] 每条都能回答"这对我有什么用"
 - [ ] 不出现竞品品牌、不出现促销语（sale / hot / #1）
 
-❌ 反例：`HIGH POWER 800W — Our speaker has 800W power.`
-✅ 正例：`FILL A BACKYARD WITHOUT AMPS — 400W RMS pushes clear sound across a 100-person outdoor setup; no extra amp needed.`
+❌ 反例：`HIGH POWER — Our speaker has high output power.`
+✅ 正例：`FILL THE VENUE WITHOUT AMPS — [RMS 数值] pushes clear sound across [人数] guests; no extra amp needed.`
 
 ---
 
